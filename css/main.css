@@ -106,7 +106,7 @@ body {
 
 
 #main {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 20px auto;
 	padding: 10px;
 	border: solid black 0px;
@@ -127,6 +127,7 @@ container {
 	left: 0;
 	max-width: 360px;
 	width: 360px;
+	margin: 2%;
 	border: solid black 0px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -134,11 +135,11 @@ container {
 }
 
 #img {
-	position: relative;
-	margin-left: 360px;
+	float: left;
 	max-width: 240px;
 	overflow: auto;
-	border: solid black 10px;
+	margin: 2%;
+	border: solid #006e9c 10px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -153,23 +154,23 @@ ul {
 a:link {color: #000000; text-decoration: underline; }
 a:active {color: #0000ff; text-decoration: underline; }
 a:visited {color: #008000; text-decoration: underline; }
-a:hover {color: #ff0000; background: #000000; text-decoration: none; }
+a:hover {color: #2f0338; background: #2f0338; text-decoration: none; }
 
 #nav {
 	float: left;
 	left: 0;
 	width: 200px;
-	border: solid black 10px;
+	border: dashed #1c685a 10px;
+	margin: 0 1.5%;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 #section {
-	margin-left: 200px;
+	float: left;
 	width: 400px;
-	position: absolute;
-	border: solid blue 10px;
+	border: dashed #681c2a 10px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -186,6 +187,17 @@ a:hover {color: #ff0000; background: #000000; text-decoration: none; }
 
 .card {
 	font-size: 65%;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	border: dashed #681c2a 0px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 
