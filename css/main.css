@@ -113,7 +113,7 @@ footer {
 Media Queries
  ========================================================================== */
 
- @media all and (min-width: 420px) {
+ @media all and (min-width: 600px) {
   wrapper, nav, bio {
     float: none;
     width: auto;
