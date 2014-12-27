@@ -116,5 +116,7 @@ Media Queries
  @media all and (min-width: 420px) {
   wrapper, nav, bio {
     float: none;
+    width: auto;
+    margin-bottom: 20px;
   }
 }
