@@ -113,7 +113,7 @@ footer {
 Media Queries
  ========================================================================== */
 
- @media all and (max-width: 420px) {
+ @media all and (max-width: 620px) {
   section, aside {
     float: none;
     width: auto;
