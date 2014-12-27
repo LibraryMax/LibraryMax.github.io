@@ -113,7 +113,7 @@ footer {
 Media Queries
  ========================================================================== */
 
- @media all and (max-width: 620px) {
+ @media all and (oreintation: portrait) {
   wrapper, nav, bio {
     float: none;
   }
