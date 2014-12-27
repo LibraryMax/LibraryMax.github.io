@@ -114,8 +114,7 @@ Media Queries
  ========================================================================== */
 
  @media all and (max-width: 620px) {
-  portrait, nav, bio {
+  wrapper, nav, bio {
     float: none;
-    width: auto;
   }
 }
