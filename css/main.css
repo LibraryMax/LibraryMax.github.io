@@ -57,6 +57,7 @@ header p {
 }
 
 .wrapper{
+	max-width: 100%;
 	padding-top: 20px;
 	float: left;
 	width: 400px;
@@ -75,6 +76,7 @@ a:visited {color: #008000; text-decoration: underline; }
 a:hover {color: #2f0338; background: #2f0338; text-decoration: none; }
 
 .nav {
+	max-width: 100%;
 	float: left;
 	text-align: left;
 	list-style-type: none;
@@ -89,6 +91,7 @@ a:hover {color: #2f0338; background: #2f0338; text-decoration: none; }
 }
 
 .bio{
+	max-width: 100%;
 	padding: 20px;
 	float: right;
 	width: 400px;
