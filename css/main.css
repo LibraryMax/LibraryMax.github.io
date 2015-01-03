@@ -114,8 +114,7 @@ Media Queries
  ========================================================================== */
 
  @media screen and (min-width: 27em) {
-  wrapper, nav, bio {
+  * {
     float: none;
-    margin-bottom: 20px;
   }
 }
